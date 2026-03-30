@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For You 💕</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader">loading something special… 💗</div>
+
+<!-- CURSOR -->
+<div class="cursor"></div>
+
+<!-- 🎀 FLOATING STICKERS -->
+<img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="sticker float slow">
+<img src="https://cdn-icons-png.flaticon.com/512/763/763704.png" class="sticker float">
+<img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" class="sticker float fast">
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" class="sticker float slow">
+
+<!-- CORNERS -->
+<img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="corner top-left">
+<img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" class="corner bottom-right">
+
+<!-- ENVELOPE -->
+<div class="envelope" onclick="openSite()">
+  <div class="letter">tap to open 💌</div>
+</div>
+
+<!-- MAIN -->
+<div id="main" class="hidden">
+
+<!-- HERO -->
+<section class="hero">
+  <h1 class="title">Happy Birthday nuprrrrrrr 💖</h1>
+  <p class="subtitle">this is something we made for you</p>
+  <p class="scroll-text">↓ scroll slowly ↓</p>
+</section>
+
+<!-- LETTER -->
+<section class="section reveal">
+  <div class="paper">
+    <h2>💌</h2>
+    <p>
+      the one in the trio who decides to lives miles away ,
+       we really do miss an entertaining part of our lives 💗
+    </p>
+  </div>
+</section>
+
+<!-- MEMORIES -->
+<section class="section reveal">
+  <h2>our memories 📸</h2>
+  <div class="collage">
+    <img src="images/photo1.jpeg">
+    <img src="images/photo2.jpeg">
+    <img src="images/photo3.jpeg">
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="section reveal">
+  <h2>we love you 💕</h2>
+  <button onclick="confetti()">tap here 🎉</button>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
